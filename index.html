@@ -312,8 +312,106 @@
       </section>
       <!-- FIRM FAVORITES -->
       <section
-        class="w-full h-[150vh] bg-[url('/images/featured-products-background-scaled.jpg')] bg-cover bg-center mt-2"
-      ></section>
+        class="w-full h-[180vh] bg-[url('/images/featured-products-background-scaled.jpg')] bg-cover bg-center mt-2 flex flex-col justify-center items-center gap-10 max-md:h-auto max-md:py-14 max-md:gap-10 max-md:justify-start"
+      >
+        <!-- Texts -->
+        <p class="uppercase font-medium">Firm Favorites</p>
+        <h2 class="font-bold text-6xl max-sm:px-10 text-center">
+          Popular Produce
+        </h2>
+        <p
+          class="text-gray-700 font-light tracking-wide leading-loose text-center px-64 max-md:px-32 max-sm:px-5"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          vestibulum aliquam cursus. Mauris molestie aliquam urna. Curabitur nec
+          eleifend risus. Integer eget libero sed elit pharetra ultricies eu in
+          augue.
+        </p>
+        <!-- Pics -->
+        <div
+          class="w-full h-[calc(100vh-100px)] grid grid-cols-3 auto-rows-fr px-14 gap-12 max-md:grid-cols-2 max-md:auto-rows-[450px] max-md:h-auto max-md:gap-10 max-md:px-8 max-sm:grid-cols-1"
+        >
+          <div class="border-8 border-[var(--hover-color)] p-3">
+            <figure class="w-full h-[65%] bg-amber-300">
+              <img
+                src="images/seasoned-chicken.jpg"
+                alt="Seasoned chicken"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <figcaption
+              class="w-full h-[35%] flex flex-col justify-center items-center gap-4 max-md:justify-start max-md:pt-7"
+            >
+              <a href=""
+                ><h3
+                  class="text-3xl font-bold hover:text-[var(--avada-red)] transition duration-300"
+                >
+                  Chicken Fillet
+                </h3></a
+              >
+              <p class="text-[var(--avada-red)]">$8.99 - $38.99</p>
+            </figcaption>
+          </div>
+          <div class="border-8 border-[var(--hover-color)] p-3">
+            <figure
+              class="relative w-full h-[65%] bg-amber-300 before:flex before:items-center before:justify-center before:font-medium before:font-[Barlow] before:tracking-wider before:absolute before:top-0 before:left-0 before:content-['ON_SALE'] before:text-black before:w-full before:h-[10%] before:bg-[var(--hover-color)]"
+            >
+              <img
+                src="images/beef-tenderloin.jpg"
+                alt="Beef tenderloin"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <figcaption
+              class="w-full h-[35%] flex flex-col justify-center items-center gap-4 max-md:justify-start max-md:pt-7"
+            >
+              <a href=""
+                ><h3
+                  class="text-3xl font-bold hover:text-[var(--avada-red)] transition duration-300"
+                >
+                  Beef Tenderloin
+                </h3></a
+              >
+              <p
+                class="text-[var(--avada-red)] max-md:text-center max-md:px-10 max-md:leading-8 max-sm:px-0"
+              >
+                $32.99
+                <span class="line-through text-gray-700 px-2">$36.99</span>
+                <span class="border border-[var(--avada-red)] px-3 py-0.5"
+                  >11% OFF</span
+                >
+                <span class="text-gray-700 px-2">Out of stock</span>
+              </p>
+            </figcaption>
+          </div>
+          <div class="border-8 border-[var(--hover-color)] p-3">
+            <figure class="w-full h-[65%] bg-amber-300">
+              <img
+                src="images/sirloin-steaks.jpg"
+                alt="Sirloin steaks"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <figcaption
+              class="w-full h-[35%] flex flex-col justify-center items-center gap-4 max-md:justify-start max-md:pt-7"
+            >
+              <a href=""
+                ><h3
+                  class="text-3xl font-bold hover:text-[var(--avada-red)] transition duration-300"
+                >
+                  Sirloin Steaks
+                </h3></a
+              >
+              <p class="text-[var(--avada-red)]">$9.99 – $16.99</p>
+            </figcaption>
+          </div>
+        </div>
+        <a
+          href=""
+          class="px-6 py-4 bg-[var(--hover-color)] font-medium hover:bg-[var(--avada-red)] hover:text-white transition duration-300"
+          >BROWS OUR RANGE</a
+        >
+      </section>
     </main>
   </body>
 </html>
