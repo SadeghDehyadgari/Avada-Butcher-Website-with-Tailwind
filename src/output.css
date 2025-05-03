@@ -484,6 +484,9 @@
   .bg-\[url\(\'\/images\/newsletter-background-image-scaled\.jpg\'\)\] {
     background-image: url('/images/newsletter-background-image-scaled.jpg');
   }
+  .bg-\[url\(\'images\/home-hero-background-new-scaled\.jpg\'\)\] {
+    background-image: url('images/home-hero-background-new-scaled.jpg');
+  }
   .mask-\[url\(\'\/images\/image-mask\.png\'\)\] {
     mask-image: url('/images/image-mask.png');
   }
