@@ -475,6 +475,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\.\.\/images\/home-hero-background-new-scaled\.jpg\'\)\] {
+    background-image: url('../images/home-hero-background-new-scaled.jpg');
+  }
   .bg-\[url\(\'\/images\/featured-products-background-scaled\.jpg\'\)\] {
     background-image: url('/images/featured-products-background-scaled.jpg');
   }
