@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,7 +22,7 @@
     />
     <title>Avada Country Butcher</title>
   </head>
-  <body class="font-['Barlow', sans] text-[var(--avada-black)] scroll-smooth">
+  <body>
     <header
       class="w-full h-[280px] flex max-md:h-[180px] max-md:px-2 max-sm:flex-col max-sm:h-[250px] max-sm:p-0"
     >
@@ -312,7 +312,7 @@
       </section>
       <!-- FIRM FAVORITES -->
       <section
-        class="w-full h-[180vh] bg-[url('/images/featured-products-background-scaled.jpg')] bg-cover bg-center mt-2 flex flex-col justify-center items-center gap-10 max-md:h-auto max-md:py-14 max-md:gap-10 max-md:justify-start"
+        class="w-full h-[170vh] bg-[url('/images/featured-products-background-scaled.jpg')] bg-cover bg-center mt-2 flex flex-col justify-center items-center gap-10 max-md:h-auto max-md:py-14 max-md:gap-10 max-md:justify-start"
       >
         <!-- Texts -->
         <p class="uppercase font-medium">Firm Favorites</p>
@@ -412,6 +412,160 @@
           >BROWS OUR RANGE</a
         >
       </section>
+      <!-- WEEKLY NEWSLETTER -->
+      <section
+        class="w-full min-h-[500px] bg-[url('/images/newsletter-background-image-scaled.jpg')] bg-cover bg-center flex flex-col items-center justify-center gap-5 max-sm:py-24 max-sm:gap-10"
+      >
+        <!-- Texts -->
+        <p class="uppercase font-medium text-white">
+          Fresh Offers In Your Inbox
+        </p>
+        <h2
+          class="font-bold text-white text-6xl max-sm:px-10 text-center max-ss:text-[40px]"
+        >
+          Weekly Newsletter
+        </h2>
+        <p
+          class="text-white font-medium tracking-wide leading-loose text-center px-64 max-md:px-32 max-sm:px-5"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          vestibulum aliquam cursus. Mauris molestie aliquam urna. Curabitur nec
+          eleifend risus.
+        </p>
+        <!-- Email input -->
+        <div class="w-2/4 h-[50px] bg-amber-300 max-sm:w-3/4">
+          <input
+            type="email"
+            placeholder="Enter your email address..."
+            class="w-full h-full bg-white focus:outline-0 px-5"
+          />
+        </div>
+        <!-- Subscribe button -->
+        <div
+          class="w-2/4 h-[50px] bg-amber-300 max-sm:w-3/4 max-sm:-translate-y-5"
+        >
+          <button
+            class="w-full h-full bg-[var(--hover-color)] font-medium cursor-pointer hover:bg-[var(--avada-red)] hover:text-white transition duration-300 tracking-widest"
+          >
+            SUBSCRIBE
+          </button>
+        </div>
+      </section>
     </main>
+    <footer
+      class="w-full min-h-[400px] grid grid-cols-4 grid-rows-[2fr_1fr] pt-14 pl-10 max-sm:p-10 max-sm:justify-items-center max-sm:grid-cols-1 max-sm:auto-rows-auto"
+    >
+      <!-- First col -->
+      <div
+        class="row-span-2 flex flex-col justify-start items-center px-5 gap-8 max-sm:row-span-1 max-sm:px-0 max-sm:gap-10"
+      >
+        <img
+          src="images/countrybutcher-logo@1x.png"
+          alt="Website logo"
+          class="w-[150px] max-sm:w-[200px]"
+        />
+        <img src="images/quality-badges.jpg" alt="Quality badges" />
+        <div class="flex gap-4">
+          <a href="" title="Facebook"
+            ><i
+              class="fa fa-facebook icon-size text-[var(--avada-red)] hover:text-[var(--icon-hover)] transition-all duration-300"
+            ></i
+          ></a>
+          <a href="" title="Twitter"
+            ><i
+              class="fa fa-twitter icon-size text-[var(--avada-red)] hover:text-[var(--icon-hover)] transition-all duration-300"
+            ></i
+          ></a>
+          <a href="" title="Instagram"
+            ><i
+              class="fa fa-instagram icon-size text-[var(--avada-red)] hover:text-[var(--icon-hover)] transition-all duration-300"
+            ></i
+          ></a>
+        </div>
+      </div>
+      <!-- Second col -->
+      <div class="pl-10 max-sm:hidden">
+        <ul class="font-medium font-[Barlow] space-y-3">
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >OUR HERITAGE</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >OUR SHOP</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >OUR FARM</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >BLOG</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >CONTACT US</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Third col -->
+      <div class="pl-10 max-sm:hidden">
+        <ul class="font-medium font-[Barlow] space-y-3">
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >PRIVACY POLICY</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >MY ACCOUNT</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="hover:text-[var(--avada-red)] transition duration-300"
+              >BUY AVADA NOW</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Fourth col -->
+      <div
+        class="flex justify-end items-start pr-10 max-sm:justify-center max-sm:items-center max-sm:pr-0"
+      >
+        <img
+          src="images/footer-card-logos.jpg"
+          alt="Footer card logo"
+          class="w-[150px]"
+        />
+      </div>
+      <!-- Fifth col -->
+      <div class="col-span-3 pl-10 max-sm:col-span-1 max-sm:p-5">
+        <p class="text-[12px] [word-spacing:0.3rem] max-sm:text-center">
+          © 2012 - 2025 • Avada is a Website Builder for WordPress and eCommerce
+          • All Rights Reserved • Developed by ThemeFusion
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

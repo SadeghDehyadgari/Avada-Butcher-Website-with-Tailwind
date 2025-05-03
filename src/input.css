@@ -9,12 +9,12 @@
   --avada-gray: #f3f1ec;
 }
 
-/* html,
+html,
 body {
   font-family: Barlow, sans-serif;
   color: var(--avada-black);
   scroll-behavior: smooth;
-} */
+}
 h1,
 h2,
 h3 {
